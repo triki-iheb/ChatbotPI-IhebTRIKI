@@ -18,21 +18,23 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col border" style="height: 70vh;">
-                
+            <div id="reponse_msg" class="col border" style="height: 70vh;">    
+            </div>
+            <div class="col-12">
+                <button id="bSpeak" class="btn btn-danger" style="display: none;"><i class="bi bi-megaphone text-white"></i></button>
             </div>
         </div>
     </div>
     <div class="container fixed-bottom">
         <div class="row" style="margin: 10px;">
             <div class="col-8">
-                <input type="text" class="form-control" placeholder="Your query here" >
+                <input id="textSpeech" type="text" class="form-control" placeholder="Your query here" >
             </div>
             <div class="col-2">
-                <button class="btn btn-danger"><i class="bi bi-send text-white"></i></button>
+                <button  id="benv" class="btn btn-danger"><i class="bi bi-send text-white"></i></button>
             </div>
             <div class="col-2">
-                <button class="btn btn-danger"><i class="bi bi-mic-fill text-white"></i></button>
+                <button id="bMic" class="btn btn-danger"><i class="bi bi-mic-fill text-white"></i></button>
             </div>
         </div>
     </div>
